@@ -1,1 +1,0 @@
-ArrayList y Map -> Procesar el ArrayList a un mapa para organizarse mejor

@@ -1,0 +1,1 @@
+List y Map -> Procesar el List a un mapa para organizarse mejor
