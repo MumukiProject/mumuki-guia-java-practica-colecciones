@@ -3,7 +3,8 @@ name: Práctica Colecciones
 locale: es
 type: practice
 beta: false
-teacher_info: 
+teacher_info: ''
 language: java
 id_format: "%05d"
-order: []
+order:
+- 1
