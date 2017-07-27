@@ -1,0 +1,1 @@
+Saber si quique puede hacer una pocion, sabiendo los ingredientes(stream) y conociendo el inventario actual del salon del profesor severo (mapa)
