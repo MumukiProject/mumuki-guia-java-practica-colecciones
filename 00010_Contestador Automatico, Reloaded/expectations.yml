@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: responderA
+  inspection: Not:UsesIf
