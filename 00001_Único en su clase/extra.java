@@ -1,7 +1,7 @@
-class Huella {
+class HuellaDactilar {
   String nombre;
   
-  Huella(String nombre) {
+  HuellaDactilar(String nombre) {
     this.nombre = nombre;
   }
 }

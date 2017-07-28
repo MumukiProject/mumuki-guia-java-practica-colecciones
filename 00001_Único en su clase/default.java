@@ -1,7 +1,7 @@
 class RegistroNacional {
   ArrayList<HuellaDactilar> huellasDactilares;
   
-  RegistroNacinal(ArrayList<HuellaDactilar> huellas) {
+  RegistroNacional(ArrayList<HuellaDactilar> huellas) {
     this.huellas = huellas;
   }
 }
