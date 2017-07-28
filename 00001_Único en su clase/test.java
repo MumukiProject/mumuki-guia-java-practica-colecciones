@@ -21,3 +21,10 @@ public void cuandoHay3PeroSolo1Repetido() {
   Assert.assertEquals(new HashSet(huellas), registro.procesarHuellas());
   Assert.assertEquals(2, registro.cantidadDePersonasRegistradas());
 }
+
+@Test
+public void cuandoHay0NoHayNadie() {
+  RegistroNacional registro = new RegistroNacional(huellas);
+  Assert.assertEquals(new HashSet(), registro.procesarHuellas());
+  Assert.assertEquals(0, registro.cantidadDePersonasRegistradas());
+}
