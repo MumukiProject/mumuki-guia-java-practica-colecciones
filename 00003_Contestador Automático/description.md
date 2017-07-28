@@ -2,10 +2,27 @@ Estamos tan ocupados resolviendo los ejercicios de `ム Mumuki` que no tenemos g
 
 Pero como no queremos quedar mal vamos tratar de decirle algo simpático a las personas que mas queremos. Como somos ordenados tenemos las siguientes reglas:
 
-|Nombre|Respuesta|
-|:-----:|:-----:|
-|"martin"|"Llamá mas tarde"|
-|"laura"|"Ahora no puedo, te llamo después"|
-|"franco"|"..."|
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Respuesta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"martin"</td>
+      <td>"Llamá mas tarde"</td>
+    </tr>
+    <tr>
+      <td>"laura"</td>
+      <td>"Ahora no puedo, te llamo después"</td>
+    </tr>
+    <tr>
+      <td>"franco"</td>
+      <td>"..."</td>
+    </tr>
+  </tbody>
+</table>
 
-> Implementá un método `responder` que cumplá con las reglas de arriba.
+> Implementá un método `responderA` que cumplá con las reglas de arriba.
