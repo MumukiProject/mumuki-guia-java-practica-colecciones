@@ -3,7 +3,7 @@ HuellaDactilar martin = new HuellaDactilar("Martin");
 List<HuellaDactilar> huellas = new ArrayList<>();
 
 @Test
-public void cuandoHay3RepetidosSoloQuedaUno() {
+public void cuando_hay_3_repetidos_solo_queda_uno() {
   huellas.add(laura);
   huellas.add(laura);
   huellas.add(laura);
@@ -13,7 +13,7 @@ public void cuandoHay3RepetidosSoloQuedaUno() {
 }
 
 @Test
-public void cuandoHay3PeroSolo1Repetido() {
+public void cuando_hay_3_pero_solo_1_repetido() {
   huellas.add(laura);
   huellas.add(laura);
   huellas.add(martin);
@@ -23,7 +23,7 @@ public void cuandoHay3PeroSolo1Repetido() {
 }
 
 @Test
-public void cuandoHay0NoHayNadie() {
+public void cuando_hay_0_no_hay_nadie() {
   RegistroNacional registro = new RegistroNacional(huellas);
   Assert.assertEquals(new HashSet(), registro.procesarHuellas());
   Assert.assertEquals(0, registro.cantidadDePersonasRegistradas());
