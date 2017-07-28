@@ -1,7 +1,7 @@
 class Huella {
-  private String nombre;
+  String nombre;
   
-  public Huella(String nombre) {
+  Huella(String nombre) {
     this.nombre = nombre;
   }
 }
