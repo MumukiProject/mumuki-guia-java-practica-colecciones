@@ -1,6 +1,6 @@
-Huella laura = new Huella("Laura");
-Huella martin = new Huella("Martin");
-ArrayList<Huella> huellas;
+HuellaDactilar laura = new HuellaDactilar("Laura");
+HuellaDactilar martin = new HuellaDactilar("Martin");
+ArrayList<HuellaDactilar> huellas;
 @Test
 public void cuandoHay3RepetidosSoloQuedaUno() {
   huellas = Array.asList(laura, laura, laura);
