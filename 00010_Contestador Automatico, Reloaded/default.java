@@ -1,5 +1,5 @@
 class ContestadorAutomatico {
-  private HashMap<String, String> respuestas;
+  private HashMap<String, String> respuestas = new HashMap<>();
   ContestadorAutomatico() {
   // Completá el mapa acá   
   }
