@@ -1,4 +1,4 @@
-Nos reunimos con amigos a comer empanadas, pero como siempre pasa, ¡Hacer el `Pedido` es un lío! :scream:
+Nos reunimos con amigos a comer empanadas, pero como siempre pasa... ¡Hacer el `Pedido` es un lío! :scream:
 
 Luego de que vayamos anotando lo que todos quieren comer, el `Pedido` tiene una _lista_ de `Empanada`s.
 ¡Está todo repetido y desordenado!
