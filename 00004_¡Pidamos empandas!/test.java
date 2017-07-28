@@ -9,6 +9,6 @@ public void before() {
 @Test
 public void cuando_hay_4_de_pollo_2_de_atun() {
   pedido.setEmpanadas(Arrays.asList(pollo, pollo, atun, pollo, atun, pollo));
-  Assert.assertEquals((int) 4, pedido.realizarPedido().get("Pollo"));
-  Assert.assertEquals((int) 2, pedido.realizarPedido().get("Atun"));
+  Assert.assertEquals(new Integer(4), pedido.realizarPedido().get("Pollo"));
+  Assert.assertEquals(new Integer(2), pedido.realizarPedido().get("Atun"));
 }
