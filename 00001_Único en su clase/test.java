@@ -3,7 +3,9 @@ HuellaDactilar martin = new HuellaDactilar("Martin");
 ArrayList<HuellaDactilar> huellas;
 @Test
 public void cuandoHay3RepetidosSoloQuedaUno() {
-  huellas = Arrays.asList(laura, laura, laura);
+  huellas.add(laura);
+  huellas.add(laura);
+  huellas.add(laura);
   RegistroNacional registro = new RegistroNacional(huellas);
   Assert.assertEquals(new HashSet(huellas), registro.procesarHuellas());
 }
