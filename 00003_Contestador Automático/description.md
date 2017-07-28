@@ -2,7 +2,7 @@ Estamos tan ocupados resolviendo los ejercicios de `ム Mumuki` que no tenemos g
 
 Pero como no queremos quedar mal vamos tratar de decirle algo simpático a las personas que mas queremos. Como somos ordenados tenemos las siguientes reglas:
 
-<table class="table table-bordered">
+<table class="table table-bordered table-striped">
   <thead>
     <tr>
       <th>Nombre</th>
