@@ -5,7 +5,7 @@ public void before() {
   ingredientes.put("Bezoar", new Integer(1)); 
   
   Quique quique = new Quique();
-  Profesor profesor = new Profesor(ingredientes);
+  ProfesorSevero profesor = new Profesor(ingredientes);
   quique.setProfesor(profesor);  
 }
 
