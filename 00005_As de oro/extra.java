@@ -5,7 +5,7 @@ class Carta {
     this.nombre = nombre;
   }
   
-  String getNombre() {
-    return nombre;
+  String esElAsDeOro() {
+    return nombre == "as de oro";
   }
 }
