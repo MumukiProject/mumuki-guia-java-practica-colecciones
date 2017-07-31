@@ -1,16 +1,18 @@
-class Named {
+class Monstruo {
   String nombre;
-  Named(String nombre) {
+  
+  Monstruo(String nombre) {
     this.nombre = nombre;
   }
-}
-class Monstruo extends Named{
-  Monstruo(String nombre) {
-    super(nombre);
+  
+  Papeleo getPapeleo() {
+    return new Papeleo(nombre.length());
   }
 }
-class Papeleo extends Named {
-  Papeleo(String nombre) {
-    super(nombre);
+class Papeleo {
+  int cantidad;
+
+  Papeleo(int cantidad) {
+    this.cantidad = cantidad;
   }
 }

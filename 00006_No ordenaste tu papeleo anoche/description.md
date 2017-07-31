@@ -2,7 +2,7 @@ La pobre Rosa <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-g
 
 Lamentablemente Rosa no terminó de hacer las guías de ム Mumuki, asi que vamos a darle una mano.
 
-En la `SecretariaMonstruosa` los monstruos estan esperando en una `fila`, cada vez que Rosa hace pasar a un `Monstruo` apila su papeleo en `papeleos`;
+En la `SecretariaMonstruosa` los `Monstruo`s están esperando en una `fila`, cada vez que Rosa hace pasar a un `Monstruo` apila su `Papeleo` en `papeleos`;
 
 
 > Elegí las colecciones apropiadas e implementá el mensaje `trabajar` que realice lo descripto previamente.
