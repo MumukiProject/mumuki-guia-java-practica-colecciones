@@ -5,7 +5,7 @@ class Carta {
     this.nombre = nombre;
   }
   
-  String esElAsDeOro() {
+  boolean esElAsDeOro() {
     return nombre == "as de oro";
   }
 }
