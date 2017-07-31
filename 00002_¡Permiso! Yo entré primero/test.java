@@ -22,11 +22,11 @@ public void solo_entra_valeria() {
 }
 
 @Test
-public void entra_javier_laura_valeria() {
-  panaderia.entrarALaPanaderia(javier);
+public void entra_martin_laura_valeria() {
+  panaderia.entrarALaPanaderia(martin);
   panaderia.entrarALaPanaderia(laura);
   panaderia.entrarALaPanaderia(valeria);
-  Assert.assertEquals(javier, panaderia.quienSigue());
+  Assert.assertEquals(martin, panaderia.quienSigue());
   Assert.assertEquals(laura, panaderia.quienSigue());
   Assert.assertEquals(valeria, panaderia.quienSigue());
 }
