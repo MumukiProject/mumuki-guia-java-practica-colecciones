@@ -1,4 +1,4 @@
-Map<String, int> ingredientes = new HashMap() {{
+Map<String, int> ingredientes = new HashMap<>() {{
   put("Piel de serpiente arborea", 2);   
   put("Bezoar", 1); 
 }};
