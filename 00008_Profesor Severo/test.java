@@ -1,13 +1,10 @@
-@Before
-public void before() {
-  Map<String, Integer> ingredientes = new HashMap<>();
-  ingredientes.put("Piel de serpiente arborea", new Integer(2));   
-  ingredientes.put("Bezoar", new Integer(1)); 
-  
-  Quique quique = new Quique();
-  ProfesorSevero profesor = new ProfesorSevero(ingredientes);
-  quique.setProfesor(profesor);  
-}
+HashMap<String, Integer> ingredientes = new HashMap<>();
+ingredientes.put("Piel de serpiente arborea", new Integer(2));   
+ingredientes.put("Bezoar", new Integer(1)); 
+
+Quique quique = new Quique();
+ProfesorSevero profesor = new ProfesorSevero(ingredientes);
+quique.setProfesor(profesor);  
 
 @Test
 public void quique_puede_hacer_la_pocion() {
