@@ -1,11 +1,11 @@
 class ProfesorSevero {
-  Map<String, int> inventario = new HashMap<>();
+  Map<String, Integer> inventario = new HashMap<>();
   
-  ProfesorSevero(HashMap<String, int> inventario) {
+  ProfesorSevero(HashMap<String, Integer> inventario) {
     this.inventario = inventario;
   }
   
-  Map<String, int> getInventario() {
+  Map<String, Integer> getInventario() {
     return inventario;
   }
 }
