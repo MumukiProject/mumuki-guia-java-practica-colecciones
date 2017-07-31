@@ -27,6 +27,6 @@ public void papeleo_de_sully_y_randall() {
   secretaria.trabajar();
   Assert.assertEquals(0, secretaria.getFila().size());
   Assert.assertEquals(2, secretaria.getPapeleos().size());
-  Assert.assertEquals(5, secretaria.getPapeleos().pop().getCantidad());
   Assert.assertEquals(7, secretaria.getPapeleos().pop().getCantidad());
+  Assert.assertEquals(5, secretaria.getPapeleos().pop().getCantidad());
 }
