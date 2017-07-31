@@ -19,7 +19,7 @@ public void papeleo_de_miguel() {
 }
 
 @Test
-public void papeleo_de_sully_y_randal() {
+public void papeleo_de_sully_y_randall() {
   secretaria.encolar(sully);
   secretaria.encolar(randal);
   Assert.assertEquals(2, secretaria.getFila().size());
