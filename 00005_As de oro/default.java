@@ -1,5 +1,5 @@
 class Baraja {
-  Stack pila = new Stack();
+  Stack<Carta> pila = new Stack<>();
   
   void barajar(List<Carta> cartas) {
     /*Completá acá*/
