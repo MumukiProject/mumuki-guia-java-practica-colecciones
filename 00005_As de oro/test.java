@@ -7,6 +7,7 @@ Baraja baraja = new Baraja();
 @Test
 public void cuand_solo_hay_un_as_de_oro() {
   baraja.barajar(Arrays.asList(asDeOro));
+    Assert.assertEquals(1, baraja.getPila().size());
   Assert.assertEquals(true, baraja.jugar());
   Assert.assertEquals(0, baraja.getPila().size());
 }
