@@ -17,5 +17,5 @@ El `Stack` tiene 2 operaciones:
 > * (void) `barajar` -> que dada una lista de cartas las coloque todas en la _Pila_ 
 >
 >* (boolean) `jugar` -> que retire una carta de la pila, y retorne :
->   * true en caso de que el nombre de la carta sea igual a `"as de oro"`
+>   * true en caso de que la carta sea el `as de oro`
 >   * false en cualquier otro caso
