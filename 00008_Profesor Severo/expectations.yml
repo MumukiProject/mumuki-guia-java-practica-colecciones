@@ -2,3 +2,5 @@
 expectations:
 - binding: puedeHacerPocion
   inspection: Uses:allMatch
+- binding: puedeHacerPocion
+  inspection: Not:Uses:map
