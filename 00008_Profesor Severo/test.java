@@ -1,11 +1,13 @@
+Quique quique;
+ProfesorSevero profesor;
 @Before
 public void before() {
   HashMap<String, Integer> ingredientes = new HashMap<>();
   ingredientes.put("Piel de serpiente arborea", new Integer(2));   
   ingredientes.put("Bezoar", new Integer(1)); 
   
-  Quique quique = new Quique();
-  ProfesorSevero profesor = new ProfesorSevero(ingredientes);
+  quique = new Quique();
+  profesor = new ProfesorSevero(ingredientes);
   quique.setProfesor(profesor);  
 }
 
