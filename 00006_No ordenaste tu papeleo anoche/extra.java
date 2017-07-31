@@ -9,6 +9,7 @@ class Monstruo {
     return new Papeleo(nombre.length());
   }
 }
+
 class Papeleo {
   int cantidad;
 
