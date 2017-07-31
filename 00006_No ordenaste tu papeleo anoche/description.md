@@ -2,6 +2,7 @@ La pobre Rosa <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-g
 
 Lamentablemente Rosa no terminó de hacer las guías de ム Mumuki, asi que vamos a darle una mano.
 
-Queremos que Rosa <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-java-practica-colecciones/master/assets/rosa.gif" width="24" heigth="24" style="margin-top: -10px"> haga pasar de a uno a los monstruos, y apile sus papeles.
+En la `SecretariaMonstruosa` los monstruos estan esperando en una `fila`, cada vez que Rosa hace pasar a un `Monstruo` apila su papeleo en `papeleos`;
 
-> Implementá lo necesario, utilizando los tipos de colecciones mas apropiados.
+
+> Elegí las colecciones apropiadas e implementá el mensaje `trabajar` que realice lo descripto previamente.
