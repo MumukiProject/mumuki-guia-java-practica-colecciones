@@ -1,0 +1,1 @@
+Los **Streams** entienden el mensaje `allMatch` que recibe un predicado en forma de expresión lambda y devuelve `true` si todos los elementos del stream cumplen la condición.
