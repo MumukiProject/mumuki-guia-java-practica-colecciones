@@ -1,8 +1,8 @@
 @Before
 public void before() {
-  Map<String, int> ingredientes = new HashMap<>();
-  ingredientes.put("Piel de serpiente arborea", 2);   
-  ingredientes.put("Bezoar", 1); 
+  Map<String, Integer> ingredientes = new HashMap<>();
+  ingredientes.put("Piel de serpiente arborea", new Integer(2));   
+  ingredientes.put("Bezoar", new Integer(1)); 
   
   Quique quique = new Quique();
   Profesor profesor = new Profesor(ingredientes);
