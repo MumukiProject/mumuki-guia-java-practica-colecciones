@@ -1,6 +1,7 @@
 Map<String, int> ingredientes = new HashMap<>();
 ingredientes.put("Piel de serpiente arborea", 2);   
 ingredientes.put("Bezoar", 1); 
+
 Quique quique = new Quique();
 Profesor profesor = new Profesor(ingredientes);
 quique.setProfesor(profesor);
