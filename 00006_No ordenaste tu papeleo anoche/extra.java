@@ -15,4 +15,8 @@ class Papeleo {
   Papeleo(int cantidad) {
     this.cantidad = cantidad;
   }
+  
+  int getCantidad() {
+    return cantidad;
+  }
 }
