@@ -5,4 +5,4 @@ Lamentablemente Rosa no terminó de hacer las guías de ム Mumuki, asi que vamo
 En la `SecretariaMonstruosa` los `Monstruo`s están esperando en una `fila`, cada vez que Rosa hace pasar a un `Monstruo` apila su `Papeleo` en `papeleos`;
 
 
-> Elegí las colecciones apropiadas e implementá el mensaje `trabajar` que atienda al primer `Monstruo` y el mensaje `encolar` que recibe un `Monstruo` y lo mete en la fila.
+> Elegí las colecciones apropiadas e implementá el mensaje `atender` que atienda al primer `Monstruo` y el mensaje `encolar` que recibe un `Monstruo` y lo mete en la fila.

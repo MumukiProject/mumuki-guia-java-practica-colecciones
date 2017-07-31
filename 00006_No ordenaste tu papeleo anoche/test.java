@@ -12,7 +12,7 @@ public void before() {
 public void papeleo_de_miguel() {
   secretaria.encolar(miguel);
   Assert.assertEquals(1, secretaria.getFila().size());
-  secretaria.trabajar();
+  secretaria.atender();
   Assert.assertEquals(0, secretaria.getFila().size());
   Assert.assertEquals(1, secretaria.getPapeleos().size());
   Assert.assertEquals(6, secretaria.getPapeleos().pop().getCantidad());
@@ -23,8 +23,8 @@ public void papeleo_de_sully_y_randall() {
   secretaria.encolar(sully);
   secretaria.encolar(randal);
   Assert.assertEquals(2, secretaria.getFila().size());
-  secretaria.trabajar();
-  secretaria.trabajar();
+  secretaria.atender();
+  secretaria.atender();
   Assert.assertEquals(0, secretaria.getFila().size());
   Assert.assertEquals(2, secretaria.getPapeleos().size());
   Assert.assertEquals(7, secretaria.getPapeleos().pop().getCantidad());
