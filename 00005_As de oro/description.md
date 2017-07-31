@@ -12,4 +12,10 @@ El `Stack` tiene 2 operaciones:
 * `push` para colocar un elemento encima de la pila
 * `pop` para retirar el ultimo elemento colocado.
 
-> Ahora vamos a divertirnos, implementá los métodos `barajar` que dada una lista de cartas las coloque todas en la `Pila` y `jugar` que retire una carta de la pila y en caso de que el nombre sea el `as de oro`
+> Ahora vamos a divertirnos, implementá los métodos:
+>
+> * (void) `barajar` -> que dada una lista de cartas las coloque todas en la _Pila_ 
+>
+>* (boolean) `jugar` -> que retire una carta de la pila, y retorne :
+>   * true en caso de que el nombre de la carta sea igual a `"as de oro"`
+>   * false en cualquier otro caso
