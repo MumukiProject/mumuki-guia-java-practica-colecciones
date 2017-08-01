@@ -32,7 +32,7 @@ public void el_que_mas_pago_bruja() {
 @Test
 public void el_que_mas_pago_chavo() {
   vecindad = new Vecindad(Arrays.asList(donRamon, chavo));
-  Assert.assertEquals("Bruja del 71", vecindad.elQueMasPago());
+  Assert.assertEquals(chavo, vecindad.elQueMasPago());
 }
 @Test
 public void los_mas_pudientes() {
