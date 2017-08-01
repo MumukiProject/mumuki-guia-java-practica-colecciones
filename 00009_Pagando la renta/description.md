@@ -2,7 +2,7 @@
 
 Queremos obtener la siguiente información:
 
-* Queremos el nombre del integrante de la vecindad que mas tuvo que pagar.
+* Queremos el integrante de la vecindad que mas tuvo que pagar.
 * Cuanto pagaron entre todos.
 * Cuanto pago la "Bruja del 71".
 * Cuantos pagaron mas de 500.

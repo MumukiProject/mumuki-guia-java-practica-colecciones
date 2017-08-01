@@ -22,12 +22,12 @@ public void lo_que_pagaron_todos() {
 @Test
 public void el_que_mas_pago_donia() {
   vecindad = new Vecindad(Arrays.asList(donRamon, chavo, bruja, florinda));
-  Assert.assertEquals("Doña Florinda", vecindad.elQueMasPago());
+  Assert.assertEquals(florinda, vecindad.elQueMasPago());
 }
 @Test
 public void el_que_mas_pago_bruja() {
   vecindad = new Vecindad(Arrays.asList(donRamon, chavo, bruja));
-  Assert.assertEquals("Bruja del 71", vecindad.elQueMasPago());
+  Assert.assertEquals(bruja, vecindad.elQueMasPago());
 }
 @Test
 public void el_que_mas_pago_chavo() {
