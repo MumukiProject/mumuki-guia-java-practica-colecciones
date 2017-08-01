@@ -1,1 +1,0 @@
-Reducir a una persona a traves de un stream de actividades para bajar su peso
