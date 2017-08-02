@@ -1,3 +1,4 @@
+import java.lang.Math;
 class TeoriaDeNumeros {
   public static boolean esPrimo(Integer numero) {
       return numero > 2
