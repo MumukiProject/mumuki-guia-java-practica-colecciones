@@ -18,5 +18,5 @@ Los Optional entienden los siguientes mensajes:
 
 > Implementá los métodos:
 >
-> * `obtenerPrimerPrimo` que devuelva un `Optional`
-> * `siguienteAlPrimerPrimo` que devuelve el entero siguiente al primer primo encontrado
+> * `obtenerPrimerImpar` que devuelva un `Optional`
+> * `siguienteAlPrimerImpar` que devuelve el entero siguiente al primer primo encontrado
