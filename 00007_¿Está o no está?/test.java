@@ -14,5 +14,5 @@ public void no_hay_impares() {
 @Test(expected = NoSuchElementException.class)
 public void lanza_error_cuando_no_hay_impares() {
   MatematicoHindu ramanujan = new MatematicoHindu(Arrays.asList(4));
-  Assert.assertEquals(new Integer(4), ramanujan.siguienteAlPrimerImpar());
+  ramanujan.siguienteAlPrimerImpar();
 }
