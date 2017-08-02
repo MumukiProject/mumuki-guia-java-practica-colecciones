@@ -15,5 +15,5 @@ Los Optional entienden los siguientes mensajes:
 
 * `get()` devuelve el valor si está presente, sino lanza la excepción `NoSuchElementException`
 * `isPresent()` que retorna true si el valor está presente
-* 
+
 
