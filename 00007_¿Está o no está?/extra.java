@@ -1,7 +1,7 @@
 class TeoriaDeNumeros {
-  public static boolean esPrimo(Integer numero) {
+  public static boolean esPrimo(double numero) {
       return numero > 2
-        && IntStream.rangeClosed(2, (Integer) new Double(numero) ^ 0.5)
+        && IntStream.rangeClosed(2, (double) numero ^ 0.5)
         .noneMatch(n -> (numero % n == 0));
   }  
 }
