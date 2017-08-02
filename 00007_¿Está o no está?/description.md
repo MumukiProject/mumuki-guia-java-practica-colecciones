@@ -16,4 +16,7 @@ Los Optional entienden los siguientes mensajes:
 * `get()` devuelve el valor si está presente, sino lanza la excepción `NoSuchElementException`
 * `isPresent()` que retorna true si el valor está presente
 
-
+> Implementá los métodos:
+>
+> * `obtenerPrimerPrimo` que devuelva un `Optional`
+> * `siguienteAlPrimerPrimo` que devuelve el entero siguiente al primer primo encontrado
