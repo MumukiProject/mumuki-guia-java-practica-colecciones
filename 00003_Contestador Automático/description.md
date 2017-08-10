@@ -33,4 +33,3 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
 > contestador.responderA("lucas"); // devuelve "¡Shu!"
 > ```
 > 
-> ¡Resolvelo sin usar `if`! :wink;

@@ -4,5 +4,3 @@ expectations:
   inspection: DeclaresMethod:responderA
 - binding: "*"
   inspection: DeclaresClass:ContestadorAutomatico
-- binding: "*"
-  inspection: Not:HasIf
