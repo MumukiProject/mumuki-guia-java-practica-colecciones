@@ -1,0 +1,1 @@
+Los `Map`s entienden un mensaje `getOrDefault` que podría serte útil. Mirá su [documentación](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)
