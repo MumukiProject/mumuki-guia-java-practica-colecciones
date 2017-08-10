@@ -1,4 +1,4 @@
-Te presentamos el tipo de coleccion: los mapas `HashMap`. Son estructuras _indexadas_, que te permiten asignarle a ciertas claves un valor. 
+Te presentamos un nuevo tipo de coleccion: los mapas `HashMap`. Son estructuras _indexadas_, que te permiten asignarle a ciertas claves un valor. 
 
 Podés pensarlo como un diccionario que te permite buscar definiciones :book:. Por ejemplo, podríamos guardar ...
 
