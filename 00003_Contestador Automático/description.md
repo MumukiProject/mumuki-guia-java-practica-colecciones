@@ -1,4 +1,4 @@
-Estamos tan ocupados resolviendo los ejercicios de ム Mumuki que no tenemos ganas de atender el télefono :telephone_receiver:.
+Estamos tan ocupados resolviendo los ejercicios que no tenemos ganas de atender el télefono :telephone_receiver:.
 
 Pero como no queremos quedar mal vamos a tratar de decirle algo simpático a las personas que más queremos. Como somos ordenados tenemos las siguientes reglas:
 
