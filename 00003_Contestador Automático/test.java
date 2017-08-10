@@ -5,9 +5,9 @@ public void responde_llama_mas_tarde_si_llama_martin() {
 }
 
 @Test
-public void responde_con_puntos_suspensivos_si_llama_franco() {
+public void responde_shu_si_llama_lucas() {
   ContestadorAutomatico ca = new ContestadorAutomatico();
-  Assert.assertEquals("...", ca.responderA("franco"));
+  Assert.assertEquals("¡Shu!", ca.responderA("lucas"));
 }
 
 @Test

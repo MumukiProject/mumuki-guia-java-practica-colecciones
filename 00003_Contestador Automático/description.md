@@ -20,9 +20,16 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
     </tr>
     <tr>
       <td>Cualquier otra persona</td>
-      <td>"..."</td>
+      <td>"¡Shu!"</td>
     </tr>
   </tbody>
 </table>
 
-> Implementá un método `responderA` que cumpla con dichas reglas. 
+> Implementá una clase `ContestadorAutomático` y un método `responderA` que cumpla con dichas reglas: 
+> 
+> ```java
+> ContestadorAutomatico contestador = new ContestadorAutomatico();
+> contestador.responderA("laura"); // devuelve "Ahora no puedo, te llamo después"
+> contestador.responderA("lucas"); // devuelve "¡Shu!"
+> ```
+> 
