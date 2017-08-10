@@ -7,7 +7,7 @@ Map<String, String> diccionarioRae = new HashMap<>();
 diccionarioRae.put("casa", "Edificio para habitar. Una casa de ocho plantas");
 diccionarioRae.put("noctámbulo", "Que anda vagando durante la noche");
 ```
-...y obtenerlas más tarde pasandole la palabra (nuestra clave):
+...y obtenerlas más tarde pasándole la palabra (nuestra clave):
 
 ``` java
 diccionarioRae.get("noctámbulo"); // retorna "Que anda vagando durante la noche"
