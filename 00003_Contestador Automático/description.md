@@ -25,7 +25,7 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
   </tbody>
 </table>
 
-> Implementá una clase `ContestadorAutomático` y un método `responderA` que cumpla con dichas reglas: 
+> Implementá una clase `ContestadorAutomatico` y un método `responderA` que cumpla con dichas reglas: 
 > 
 > ```java
 > ContestadorAutomatico contestador = new ContestadorAutomatico();
