@@ -1,6 +1,4 @@
-Seguramente alguna vez jugaste a este famoso juego de cartas :diamonds:.
-
-Te recordamos las reglas:
+Seguramente alguna vez jugaste a este famoso juego de cartas :diamonds:. Te recordamos las reglas:
 
 * Las cartas se mezclan y apilan en la mesa.
 * Luego cada jugador retira una carta de la parte de arriba del mazo hasta que alguien saque el _as de oro_, en ese caso el jugador pierte.
