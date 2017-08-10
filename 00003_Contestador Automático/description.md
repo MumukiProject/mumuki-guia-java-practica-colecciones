@@ -25,4 +25,4 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
   </tbody>
 </table>
 
-> Implementá un método `responderA` que cumpla con las reglas de arriba.
+> Implementá un método `responderA` que cumpla con dichas reglas. 
