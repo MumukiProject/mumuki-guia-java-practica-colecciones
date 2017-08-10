@@ -19,7 +19,7 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
       <td>"Ahora no puedo, te llamo después"</td>
     </tr>
     <tr>
-      <td>Cualquier otra persona</td>
+      <td>"lucas"</td>
       <td>"¡Shu!"</td>
     </tr>
   </tbody>
