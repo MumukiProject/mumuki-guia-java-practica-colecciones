@@ -1,17 +1,16 @@
-Te presentamos el tipo de coleccion `Map`. Los mapas son estructuras indexadas, que te permiten asignarle a ciertas claves el valor que corresponda.
+Te presentamos el tipo de coleccion: los mapas `HashMap`. Son estructuras _indexadas_, que te permiten asignarle a ciertas claves un valor. 
 
-Por ejemplo, si quisieramos almacenar las edades de algunas personas:
+Podés pensarlo como un diccionario que te permite buscar definiciones :book:. Por ejemplo, podríamos guardar ...
 
 ```java
-HashMap<Int, String> edades = new HashMap<>();
-edades.put("Laura", 24);
-edades.put("Martin", 30);
+Map<String, String> diccionarioRae = new HashMap<>();
+diccionarioRae.put("casa", "Edificio para habitar. Una casa de ocho plantas");
+diccionarioRae.put("noctámbulo", "Que anda vagando durante la noche");
 ```
-
-Luego se puede obtener el valor pasandole la clave
+...podríamos obtenerlas pasandole la clave
 
 ``` java
-edades.get("Laura");
+diccionarioRae.get("noctámbulo"); // retorna "Que anda vagando durante la noche"
 ```
 
-> Mejorá utilizando un mapa la solución del ejercicio pasado
+> ¿Te animás a mejorar tu solución usando un `HashMap`?
