@@ -1,4 +1,4 @@
-El tío de uno de nosotros tiene una panadería :bread:, y tiene muchos problemas para saber que cliente llegó primero.
+Nuestro tío tiene una panadería :bread:, y tiene muchos problemas para saber que cliente llegó primero.
 
 En Java tenemos un tipo de colección `Queue` que funciona como una fila o cola. Las colas entienden 2 mensajes:
 
