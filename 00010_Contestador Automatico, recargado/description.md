@@ -13,4 +13,4 @@ diccionarioRae.put("noctámbulo", "Que anda vagando durante la noche");
 diccionarioRae.get("noctámbulo"); // retorna "Que anda vagando durante la noche"
 ```
 
-> ¿Te animás a mejorar tu solución usando un `HashMap`?
+> ¿Te animás a mejorar tu solución usando un `HashMap` y sin usar `if`s?
