@@ -1,3 +1,3 @@
 class Panaderia {
-  Queue<Persona> cola = new Queue<>();
+  Queue<Persona> cola = new LinkedList<>();
 }
