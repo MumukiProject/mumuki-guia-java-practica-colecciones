@@ -2,3 +2,5 @@
 expectations:
 - binding: responderA
   inspection: Not:UsesIf
+- binding: "*"
+  inspection: Uses:HashMap
