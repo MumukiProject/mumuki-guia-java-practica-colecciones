@@ -5,7 +5,7 @@ En Java tenemos un tipo de colección `Queue` que funciona como una fila o cola.
 * `add` recibe un elemento y lo ingresa a la cola
 * `poll` quita el primer elemento ingresado
 
-> Ayudemos al tio implementando los métodos:
+> Ayudemos al tío implementando los métodos:
 >
 > * `entrarALaPanaderia` que ingrese una `Persona` a la cola
 >
