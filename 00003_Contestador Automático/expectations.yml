@@ -1,4 +1,6 @@
 ---
 expectations:
-- binding: responderA
-  inspection: UsesIf
+- binding: ContestadorAutomatico
+  inspection: DeclaresMethod:responderA
+- binding: "*"
+  inspection: DeclaresClass:ContestadorAutomatico
