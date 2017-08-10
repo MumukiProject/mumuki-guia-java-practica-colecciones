@@ -14,5 +14,5 @@ Map<String, String> diccionario = new HashMap<>();
 diccionario.getOrDefault("zorzal", "Palabra desconocida"); // Devuelve "Palabra desconocida"
 ```
 
-> Vamos a hacer una última mejora a nuestro contestador: queremos que a toda persona desconocida le responda `"No podemos atender en este momento. Intente más tarde."`
+> Vamos a hacer una última mejora a nuestro contestador: queremos que a toda persona desconocida le responda `"Intente más tarde."`
 
