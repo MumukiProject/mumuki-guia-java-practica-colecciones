@@ -8,5 +8,4 @@ En Java tenemos un tipo de colección `Queue` que funciona como una fila o cola.
 > Ayudemos al tío implementando los métodos:
 >
 > * `entrarALaPanaderia` que ingrese una `Persona` a la cola
->
 > * `quienSigue` que retorne la `Persona` que sigue
