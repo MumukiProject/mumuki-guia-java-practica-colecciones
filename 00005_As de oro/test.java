@@ -13,7 +13,7 @@ public void cuando_solo_hay_un_as_de_oro() {
 }
 
 @Test
-public void cuand_el_as_esta_ultimo() {
+public void cuando_el_as_esta_ultimo() {
   baraja.barajar(Arrays.asList(asDeOro, dosDeEspada));
   Assert.assertEquals(2, baraja.getPila().size());
   Assert.assertEquals(false, baraja.jugar());
