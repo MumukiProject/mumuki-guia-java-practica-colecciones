@@ -1,9 +1,9 @@
-class Empanada {
-  String gusto;
-  Empanada(String gusto) {
-    this.gusto = gusto;
+class Gusto {
+  String descripcion;
+  Gusto(String descripcion) {
+    this.descripcion = descripcion;
   }
-  String getGusto() {
-    return this.gusto;
+  public String toString() {
+    return descripcion;
   }
 }
