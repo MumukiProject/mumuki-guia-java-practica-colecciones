@@ -4,5 +4,5 @@ expectations:
   inspection: Not:DeclaresClass:Gusto
 - binding: Pedido
   inspection: Uses:Map
-- binding: Pedido
+- binding: gustos
   inspection: TypesReturnAs:Map
