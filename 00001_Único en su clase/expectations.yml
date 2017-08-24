@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresClass:LibroDeSugerencias
+- binding: LibroDeSugerencias
+  inspection: DeclaresMethod:cantidadDnisUnicos
+- binding: LibroDeSugerencias
+  inspection: DeclaresMethod:sugerencias
+- binding: "*"
+  inspection: Uses:Set

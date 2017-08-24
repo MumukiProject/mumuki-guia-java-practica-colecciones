@@ -1,30 +1,39 @@
-HuellaDactilar laura = new HuellaDactilar("Laura");
-HuellaDactilar martin = new HuellaDactilar("Martin");
-List<HuellaDactilar> huellas = new ArrayList<>();
-
-@Test
-public void cuando_hay_3_repetidos_solo_queda_uno() {
-  huellas.add(laura);
-  huellas.add(laura);
-  huellas.add(laura);
-  RegistroNacional registro = new RegistroNacional(huellas);
-  Assert.assertEquals(new HashSet(huellas), registro.procesarHuellas());
-  Assert.assertEquals(1, registro.cantidadDePersonasRegistradas());
+@Test 
+public void si_no_registro_sugerencias_entonces_sugerencias_devuelve_una_coleccion_vacia() {
+  LibroDeSugerencias libro = new LibroDeSugerencias();
+  Assert.assertTrue(libro.sugerencias().isEmpty());
 }
 
-@Test
-public void cuando_hay_3_pero_solo_1_repetido() {
-  huellas.add(laura);
-  huellas.add(laura);
-  huellas.add(martin);
-  RegistroNacional registro = new RegistroNacional(huellas);
-  Assert.assertEquals(new HashSet(huellas), registro.procesarHuellas());
-  Assert.assertEquals(2, registro.cantidadDePersonasRegistradas());
+@Test 
+public void si_no_registro_sugerencias_entonces_cantidadDnisUnicos_devuelve_0() {
+  LibroDeSugerencias libro = new LibroDeSugerencias();
+  Assert.assertEquals(0, libro.cantidadDnisUnicos());
 }
 
-@Test
-public void cuando_hay_0_no_hay_nadie() {
-  RegistroNacional registro = new RegistroNacional(huellas);
-  Assert.assertEquals(new HashSet(), registro.procesarHuellas());
-  Assert.assertEquals(0, registro.cantidadDePersonasRegistradas());
+@Test 
+public void si_registro_3_dnis_diferentes_cantidadDnisUnicos_devuelve_3() {
+  LibroDeSugerencias libro = new LibroDeSugerencias();
+  libros.registrarSugerencia("1", "");
+  libros.registrarSugerencia("2", "");
+  libros.registrarSugerencia("3", "");
+  Assert.assertEquals(3, libro.cantidadDnisUnicos());
+}
+
+
+@Test 
+public void si_registro_3_dnis_guales_cantidadDnisUnicos_devuelve_1() {
+  LibroDeSugerencias libro = new LibroDeSugerencias();
+  libros.registrarSugerencia("3", "");
+  libros.registrarSugerencia("3", "");
+  libros.registrarSugerencia("3", "");
+  Assert.assertEquals(1, libro.cantidadDnisUnicos());
+}
+
+@Test 
+public void si_registro_3_sugerencias_iguales_sugerencias_devuelve_una_coleccion_con_3_elementos() {
+  LibroDeSugerencias libro = new LibroDeSugerencias();
+  libros.registrarSugerencia("3", "Hola");
+  libros.registrarSugerencia("3", "Hola");
+  libros.registrarSugerencia("3", "Hola");
+  Assert.assertEquals(3, libro.sugerencias().size());
 }
