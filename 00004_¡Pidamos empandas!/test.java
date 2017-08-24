@@ -5,13 +5,6 @@ Gusto carnePicante =  new Gusto("Carne Picante");
 @Test
 public void cuando_no_se_pidio_nada() {
   Pedido unPedido = new Pedido();
-  unPedido.anotar(jamonYQueso);
-  unPedido.anotar(jamonYQueso);
-  unPedido.anotar(carnePicante);
-  unPedido.anotar(carnePicante);
-  unPedido.anotar(jamonYQueso);
-  unPedido.anotar(jamonYQueso);
-  
   Assert.assertEquals("Hay 0 de jamón y queso", (Integer) 0, unPedido.gustos().getOrDefault(jamonYQueso, 0));
   Assert.assertEquals("Hay 0 de carne suave",   (Integer) 0, unPedido.gustos().getOrDefault(carneSuave, 0));
   Assert.assertEquals("Hay 0 de carne picante", (Integer) 0, unPedido.gustos().getOrDefault(carnePicante, 0));
