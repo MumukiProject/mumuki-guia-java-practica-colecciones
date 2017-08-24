@@ -39,7 +39,7 @@ public void cuando_hay_4_de_jamonYQueso_y_2_de_carnePicante() {
   unPedido.anotar(jamonYQueso);
   
   Assert.assertEquals("Hay 4 de jamón y queso", (Integer) 4, unPedido.gustos().get(jamonYQueso));
-  Assert.assertEquals("Hay 0 de carne suave",   (Integer) 2, unPedido.gustos().getOrDefault(carneSuave, 0));
+  Assert.assertEquals("Hay 0 de carne suave",   (Integer) 0, unPedido.gustos().getOrDefault(carneSuave, 0));
   Assert.assertEquals("Hay 2 de carne picante", (Integer) 2, unPedido.gustos().get(carnePicante));
 
 }
