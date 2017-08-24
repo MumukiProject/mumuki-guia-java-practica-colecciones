@@ -1,21 +1,52 @@
-Pedido pedido;
-Empanada pollo = new Empanada("Pollo");
-Empanada atun = new Empanada("Atun");
-Empanada jamon = new Empanada("Jamon");
+Gusto jamonYQueso  =  new Gusto("Jamon y Queso");
+Gusto carneSuave   =  new Gusto("Carne Suave");
+Gusto carnePicante =  new Gusto("Carne Picante");
 
-@Before
-public void before() {
-  pedido = new Pedido();
-}
 @Test
-public void cuando_hay_4_de_pollo_2_de_atun() {
-  pedido.setEmpanadas(Arrays.asList(pollo, pollo, atun, pollo, atun, pollo));
-  Assert.assertEquals(new Integer(4), pedido.realizarPedido().get("Pollo"));
-  Assert.assertEquals(new Integer(2), pedido.realizarPedido().get("Atun"));
+public void cuando_no_se_pidio_nada() {
+  Pedido unPedido = new Pedido();
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(carnePicante);
+  unPedido.anotar(carnePicante);
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(jamonYQueso);
+  
+  Assert.assertEquals("Hay 0 de jamón y queso", 0, unPedido.gustos().getOrDefault(jamonYQueso, 0));
+  Assert.assertEquals("Hay 0 de carne suave", 0, unPedido.gustos().getOrDefault(carneSuave, 0));
+  Assert.assertEquals("Hay 0 de carne picante", 0, unPedido.gustos().getOrDefault(carnePicante, 0));
 }
+
+
 @Test
-public void cuando_hay_2_de_jamon_1_de_pollo() {
-  pedido.setEmpanadas(Arrays.asList(pollo, jamon, jamon));
-  Assert.assertEquals(new Integer(2), pedido.realizarPedido().get("Jamon"));
-  Assert.assertEquals(new Integer(1), pedido.realizarPedido().get("Pollo"));
+public void cuando_hay_3_de_jamonYQueso_2_de_carnePicante_y_2_de_carneSuave() {
+  Pedido unPedido = new Pedido();
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(carnePicante);
+  unPedido.anotar(carnePicante);
+  unPedido.anotar(carneSuave);
+  unPedido.anotar(carneSuave);
+  unPedido.anotar(jamonYQueso);
+  
+  Assert.assertEquals("Hay 3 de jamón y queso", 3, unPedido.gustos().get(jamonYQueso));
+  Assert.assertEquals("Hay 2 de carne suave",   2, unPedido.gustos().get(carneSuave));
+  Assert.assertEquals("Hay 2 de carne picante", 2, unPedido.gustos().get(carnePicante));
+}
+
+
+@Test
+public void cuando_hay_4_de_jamonYQueso_y_2_de_carnePicante() {
+  Pedido unPedido = new Pedido();
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(carnePicante);
+  unPedido.anotar(carnePicante);
+  unPedido.anotar(jamonYQueso);
+  unPedido.anotar(jamonYQueso);
+  
+  Assert.assertEquals("Hay 4 de jamón y queso", 4, unPedido.gustos().get(jamonYQueso));
+  Assert.assertEquals("Hay 0 de carne suave",   2, unPedido.gustos().getOrDefault(carneSuave, 0));
+  Assert.assertEquals("Hay 2 de carne picante", 2, unPedido.gustos().get(carnePicante));
+
 }
