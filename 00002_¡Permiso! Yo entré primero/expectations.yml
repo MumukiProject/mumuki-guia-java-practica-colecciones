@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: Uses:LinkedList
+- binding: "*"
+  inspection: TypesAttributeAs:Queue
+- binding: "*"
+  inspection: Uses:offer
+- binding: "*"
+  inspection: Uses:poll
