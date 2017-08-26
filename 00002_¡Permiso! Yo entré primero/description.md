@@ -1,37 +1,37 @@
 Nuestro tío Gustavo tiene una panadería :bread:...
 
 ```java
-Panaderia laFlorDelCenteno = new Panaderia();
+Panaderia laParadigmatica = new Panaderia();
 ```
 
-...y tiene muchos problemas para saber qué cliente llegó primero. Por ejemplo, si primero entran Jorge y luego Amalia...
+...y tiene muchos problemas para saber qué cliente llegó primero. Por ejemplo, si primero entran Carlos y luego Amalia...
 
 ```java
-laFlorDelCenteno.entrar(jorge);
-laFlorDelCenteno.entrar(amalia);
+laParadigmatica.entrar(carlos);
+laParadigmatica.entrar(amalia);
 ```
 
 ...quedan ambos en espera....
 
 ```java
-laFlorDelCenteno.enEspera();
-// devuelve una colección con jorge y amalia
+laParadigmatica.enEspera();
+// devuelve una colección con carlos y amalia
 ```
 
-... y si atiende al primero (Jorge), en espera queda sólo Amalia....
+... y si atiende al primero (Carlos), en espera queda sólo Amalia....
 
 ```java
-laFlorDelCenteno.atender();
-laFlorDelCenteno.enEspera();
+laParadigmatica.atender();
+laParadigmatica.enEspera();
 // devuelve una sólo amalia
 ```
 
 Pero si luego entra Magadalena, se pone al final de la fila y atiende primero a Amalia...
 
 ```java
-laFlorDelCenteno.entrar(magdalena);
-laFlorDelCenteno.atender();
-laFlorDelCenteno.enEspera();
+laParadigmatica.entrar(magdalena);
+laParadigmatica.atender();
+laParadigmatica.enEspera();
 // devuelve una sólo Magdalena.
 ```
 
