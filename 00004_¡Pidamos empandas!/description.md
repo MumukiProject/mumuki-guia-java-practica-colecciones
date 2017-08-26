@@ -18,4 +18,4 @@ unPedido.gustos();
 // En este caso quedaría carneSuave => 1, carnePicante => 1, jamonYQueso => 2
 ```
 
-> Implementá los métodos `anotar` y `gustos` de la clase `Pedido`, Asumí que la clase `Gusto` ya existe. 
+> Implementá los métodos `anotar` y `gustos` de la clase `Pedido`. Asumí que la clase `Gusto` ya existe. 
