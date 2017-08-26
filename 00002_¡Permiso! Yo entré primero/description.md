@@ -1,6 +1,6 @@
 Nuestro tío tiene una panadería :bread:, y tiene muchos problemas para saber que cliente llegó primero.
 
-En Java tenemos un tipo de colección `Queue` que funciona como una fila o cola. `Queue` es una interfaz que entiende 2 mensajes principales:
+En Java tenemos un tipo de colección `Queue` que funciona como una fila o cola. `Queue` es una interfaz que tiene 2 mensajes principales:
 
 * `add` recibe un elemento y lo ingresa a la cola
 * `poll` quita el primer elemento ingresado
