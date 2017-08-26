@@ -21,7 +21,7 @@ public void si_entran_laura_primero_y_martin_despues_atiende_primero_a_laura() {
 @Test
 public void si_solo_entra_valeria_y_no_la_atiende_queda_en_espera() {
   panaderia.entrar(valeria);
-  Assert.assertEquals(Arrasys.asList(valeria), panaderia.enEspera());
+  Assert.assertEquals(Arrays.asList(valeria), panaderia.enEspera());
 }
 
 
