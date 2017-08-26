@@ -1,7 +1,7 @@
-class Persona {
+class Cliente {
   String nombre;
   
-  Persona(String nombre) {
+  Cliente(String nombre) {
     this.nombre = nombre;
   }
 }
