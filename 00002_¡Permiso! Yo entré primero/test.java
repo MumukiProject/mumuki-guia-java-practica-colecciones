@@ -29,7 +29,7 @@ public void si_solo_entra_valeria_y_no_la_atiende_queda_en_espera() {
 @Test
 public void si_solo_entra_valeria_y_la_atiende_no_queda_nadie_en_espera() {
   panaderia.entrar(valeria);
-  panaderia.atender()
+  panaderia.atender();
   Assert.assertTrue(panaderia.enEspera().isEmpty());
 }
 
