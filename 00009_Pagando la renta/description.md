@@ -1,4 +1,4 @@
-¡El Señor Barriga vino a cobrar la renta!:moneybag::moneybag: 
+¡El Señor Barriga vino a cobrar la renta!:moneybag:
 
 Queremos obtener la siguiente información:
 
