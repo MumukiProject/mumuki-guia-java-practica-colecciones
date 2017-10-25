@@ -1,4 +1,4 @@
-¿Y quien implementa esta interfaz? Una vieja conocida: ¡la `LinkedList`!
+¿Y quién implementa esta interfaz? Una vieja conocida: ¡la `LinkedList`!
 
 
 ```java

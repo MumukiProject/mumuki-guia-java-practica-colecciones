@@ -35,7 +35,7 @@ laParadigmatica.enEspera();
 // devuelve una colección con solo Magdalena.
 ```
 
-Esto es lo que se conoce como una _cola_: el primero que entra es el primero que sale (principio abreviado como [FIFO](https://es.wikipedia.org/wiki/First_in,_first_out), por sus siglas en inglés). La buena noticia es que Java cuenta con una interfaz de colección llamada `Queue` que trabaja así que tiene 2 mensajes principales:
+Esto es lo que se conoce como una _cola_: el primero que entra es el primero que sale (principio abreviado como [FIFO](https://es.wikipedia.org/wiki/First_in,_first_out), por sus siglas en inglés). La buena noticia es que Java cuenta con una interfaz de colección llamada `Queue` que tiene 2 mensajes principales:
 
 * `offer` recibe un elemento y lo ingresa a la cola
 * `poll` quita el primer elemento ingresado
