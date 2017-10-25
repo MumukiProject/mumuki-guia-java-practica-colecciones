@@ -2,10 +2,10 @@
 
 Queremos obtener la siguiente información:
 
-* Queremos el integrante de la vecindad que mas tuvo que pagar.
-* Cuanto pagaron entre todos.
-* Cuanto pago la "Bruja del 71".
-* Cuantos pagaron mas de 500.
-* Cuantos deben, es decir que lo que pagaron es menor a 0.
+* Queremos el integrante de la vecindad que más tuvo que pagar.
+* Cuánto pagaron entre todos.
+* Cuánto pagó la "Bruja del 71".
+* Cuántos pagaron más de 500.
+* Cuántos deben, es decir que lo que pagaron es menor a 0.
 
 > Implementá los siguientes mensajes sin repetir lógica  `elQueMasPago`, `loQuePagaronTodos`, `pagoEmbrujado`, `losMasPudientes`, `cuantosDeben`
