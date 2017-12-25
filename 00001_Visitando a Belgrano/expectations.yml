@@ -7,4 +7,4 @@ expectations:
 - binding: LibroDeSugerencias
   inspection: DeclaresMethod:sugerencias
 - binding: "*"
-  inspection: Uses:Set
+  inspection: Instantiates:HashSet
