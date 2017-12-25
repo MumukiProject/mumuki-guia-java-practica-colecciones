@@ -3,6 +3,6 @@ expectations:
 - binding: "*"
   inspection: Not:DeclaresClass:Gusto
 - binding: Pedido
-  inspection: Uses:Map
+  inspection: Instantiates:HashMap
 - binding: gustos
   inspection: TypesReturnAs:Map
