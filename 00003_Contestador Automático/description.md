@@ -12,7 +12,7 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
   <tbody>
     <tr>
       <td>"martin"</td>
-      <td>"Llamá mas tarde"</td>
+      <td>"Llamá más tarde"</td>
     </tr>
     <tr>
       <td>"laura"</td>
