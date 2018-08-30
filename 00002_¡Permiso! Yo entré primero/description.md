@@ -23,7 +23,7 @@ laParadigmatica.enEspera();
 ```java
 laParadigmatica.atender();
 laParadigmatica.enEspera();
-// devuelve una colección con sóolo amalia
+// devuelve una colección con sólo amalia
 ```
 
 Pero si luego entra Magadalena, se pone al final de la fila y atiende primero a Amalia...
