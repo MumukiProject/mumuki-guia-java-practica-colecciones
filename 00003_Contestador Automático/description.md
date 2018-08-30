@@ -22,6 +22,10 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
       <td>"Lucas"</td>
       <td>"¡Shu!"</td>
     </tr>
+    <tr>
+      <td>Cualquier otra persona</td>
+      <td>" "</td>
+    </tr>
   </tbody>
 </table>
 
@@ -31,5 +35,6 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
 > ContestadorAutomatico contestador = new ContestadorAutomatico();
 > contestador.responderA("Laura"); // devuelve "Ahora no puedo, te llamo después"
 > contestador.responderA("Lucas"); // devuelve "¡Shu!"
+> contestador.responderA("Gustavo"); // devuelve " " porque no definimos ningún mensaje para él
 > ```
 > 

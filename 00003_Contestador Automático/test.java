@@ -15,3 +15,9 @@ public void responde_ahora_no_puedo_si_llama_laura() {
   ContestadorAutomatico ca = new ContestadorAutomatico();
   Assert.assertEquals("Ahora no puedo, te llamo después", ca.responderA("Laura"));
 }
+
+@Test
+public void responde_un_silencio_si_llama_cualquier_otra_persona() {
+  ContestadorAutomatico ca = new ContestadorAutomatico();
+  Assert.assertEquals(" ", ca.responderA("Otro nombre"));
+}
