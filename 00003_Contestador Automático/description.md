@@ -11,15 +11,15 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
   </thead>
   <tbody>
     <tr>
-      <td>"martin"</td>
+      <td>"Martin"</td>
       <td>"Llamá más tarde"</td>
     </tr>
     <tr>
-      <td>"laura"</td>
+      <td>"Laura"</td>
       <td>"Ahora no puedo, te llamo después"</td>
     </tr>
     <tr>
-      <td>"lucas"</td>
+      <td>"Lucas"</td>
       <td>"¡Shu!"</td>
     </tr>
   </tbody>
