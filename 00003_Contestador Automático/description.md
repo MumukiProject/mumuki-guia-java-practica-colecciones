@@ -29,7 +29,7 @@ Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a la
 > 
 > ```java
 > ContestadorAutomatico contestador = new ContestadorAutomatico();
-> contestador.responderA("laura"); // devuelve "Ahora no puedo, te llamo después"
-> contestador.responderA("lucas"); // devuelve "¡Shu!"
+> contestador.responderA("Laura"); // devuelve "Ahora no puedo, te llamo después"
+> contestador.responderA("Lucas"); // devuelve "¡Shu!"
 > ```
 > 
