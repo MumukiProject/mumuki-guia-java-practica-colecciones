@@ -1,0 +1,1 @@
+Vas a tener que crear un constructor para la clase `ContestadorAutomatico` donde inicialices los mensajes para `"Laura"`, `"Martin"` y `"Lucas"`. 
