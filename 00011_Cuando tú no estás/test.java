@@ -19,5 +19,5 @@ public void responde_ahora_no_puedo_si_llama_laura() {
 @Test
 public void responde_intente_mas_tarde_si_llama_carlos() {
   ContestadorAutomatico ca = new ContestadorAutomatico();
-  Assert.assertEquals("Intente más tarde.", ca.responderA("carlos"));
+  Assert.assertEquals("Intente más tarde", ca.responderA("carlos"));
 }
