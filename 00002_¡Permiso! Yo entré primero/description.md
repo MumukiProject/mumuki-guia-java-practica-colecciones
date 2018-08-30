@@ -23,7 +23,7 @@ laParadigmatica.enEspera();
 ```java
 laParadigmatica.atender();
 laParadigmatica.enEspera();
-// devuelve una colección con sólo amalia 
+// devuelve una colección con sólo amalia
 ```
 
 Pero si luego entra Magadalena, se pone al final de la fila y atiende primero a Amalia...
@@ -32,7 +32,7 @@ Pero si luego entra Magadalena, se pone al final de la fila y atiende primero a 
 laParadigmatica.entrar(magdalena);
 laParadigmatica.atender();
 laParadigmatica.enEspera();
-// devuelve una colección con solo Magdalena.
+// devuelve una colección con sólo magdalena
 ```
 
 Esto es lo que se conoce como una _cola_: el primero que entra es el primero que sale (principio abreviado como [FIFO](https://es.wikipedia.org/wiki/First_in,_first_out), por sus siglas en inglés). La buena noticia es que Java cuenta con una interfaz de colección llamada `Queue` que tiene 2 mensajes principales:
