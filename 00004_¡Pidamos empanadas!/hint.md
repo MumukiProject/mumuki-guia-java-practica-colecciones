@@ -1,0 +1,2 @@
+Vas a tener que modificar la colección cuando llames a `anotar` sumándole 1 a la cantidad actual del gusto. Para eso vas a necesitar la cantidad de empanadas actuales de ese gusto. 
+¿Y si nadie pidió ese gusto aún? Acordate que existe `getOrDefault` :wink:. 
