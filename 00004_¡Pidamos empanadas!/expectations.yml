@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Not:DeclaresClass:Gusto
-- binding: Pedido
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pedido
   inspection: Instantiates:HashMap
-- binding: gustos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: gustos
   inspection: TypesReturnAs:Map

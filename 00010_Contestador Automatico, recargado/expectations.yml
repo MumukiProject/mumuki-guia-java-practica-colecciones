@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: responderA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: responderA
   inspection: Not:UsesIf
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Uses:HashMap

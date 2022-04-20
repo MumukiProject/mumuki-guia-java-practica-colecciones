@@ -1,10 +1,14 @@
 ---
 expectations:
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: DeclaresClass:LibroDeSugerencias
-- binding: LibroDeSugerencias
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: LibroDeSugerencias
   inspection: DeclaresMethod:cantidadDnisUnicos
-- binding: LibroDeSugerencias
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: LibroDeSugerencias
   inspection: DeclaresMethod:sugerencias
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Instantiates:HashSet

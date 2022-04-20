@@ -1,4 +1,4 @@
-Estamos tan ocupados resolviendo los ejercicios que no tenemos ganas de atender el télefono :telephone_receiver:.
+Resolver los ejercicios nos lleva tanto tiempo que no podemos de atender el télefono :telephone_receiver:.
 
 Pero como no queremos quedar mal, vamos a tratar de decirle algo simpático a las personas que más queremos, según las siguientes reglas:
 
