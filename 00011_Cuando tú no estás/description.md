@@ -1,4 +1,4 @@
-¿Y qué pasa si llama alguien que no está entre los conocidos? ¿Lanzará una excepción?
+¿Y qué pasa si llama alguien que no está entre las personas conocidas? ¿Lanzará una excepción?
 
 No. Cuando a un `Map` le pedimos el valor de una clave que no fue agregada previamente mediante `put`, `get` devolverá `null`:
 
